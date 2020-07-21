@@ -1,0 +1,41 @@
+{
+  "name": "containers_task_8.1",
+  "version": "1.0.0",
+  "description": "containers_task_8.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "buildbabel": "babel src -d dist",
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiRover/ajs-homework-containers-8.1.git"
+  },
+  "keywords": [
+    "containers_task_8.1"
+  ],
+  "author": "Dmitriy Rovenskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiRover/ajs-homework-containers-8.1/issues"
+  },
+  "homepage": "https://github.com/DiRover/ajs-homework-containers-8.1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "^26.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
