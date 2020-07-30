@@ -43,6 +43,14 @@ test('check group characters 4', () => {
   expect(received).toEqual(expected);
 });
 
+test('check group characters 5', () => {
+  const team = new Team();
+  team.add(bowman);
+  const expected = 3;
+  const received = team.addAll(bowman, daemon, swordsman, swordsman);
+  expect(received).toEqual(expected);
+});
+
 test('check array', () => {
   const team = new Team();
   team.addAll(bowman, daemon, swordsman);

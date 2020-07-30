@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1595275588986" clover="3.2.0">
-  <project timestamp="1595275588986" name="All files">
+<coverage generated="1596135102862" clover="3.2.0">
+  <project timestamp="1596135102862" name="All files">
     <metrics statements="51" coveredstatements="51" conditionals="16" coveredconditionals="11" methods="17" coveredmethods="17" elements="84" coveredelements="79" complexity="0" loc="51" ncloc="51" packages="2" files="4" classes="4"/>
     <package name="dist.js">
       <metrics statements="41" coveredstatements="41" conditionals="14" coveredconditionals="9" methods="11" coveredmethods="11"/>
@@ -61,13 +61,13 @@
       </file>
       <file name="Team.js" path="E:\IT_and_programing\Frontend\8.0_Homeworks\Task_8.1\src\js\Team.js">
         <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
-        <line num="4" count="6" type="stmt"/>
-        <line num="8" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="8" count="5" type="cond" truecount="2" falsecount="0"/>
         <line num="9" count="1" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
-        <line num="15" count="5" type="stmt"/>
-        <line num="16" count="15" type="stmt"/>
-        <line num="18" count="5" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="19" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
       </file>
     </package>
